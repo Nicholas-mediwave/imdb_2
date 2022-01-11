@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <h1>hi</h1>
+    <div class="container">
+      <div>
+        <h1>ADD A MOVIE</h1>
+        <form id="AddMovieForm" class="MovieForm">
+          <div class="padding">
+            <label for="movieName">Movie Name</label>
+            <input type="text" id="movieName" name="movieName" />
+          </div>
+          <div class="padding">
+            <label for="movieYear">Year of Release</label>
+            <input type="text" id="movieYear" name="movieYear" />
+          </div>
+          <div class="padding">
+            <label for="movieGenre">Genres</label>
+            <input type="text" id="movieGenre" name="movieGenre" />
+          </div>
+          <div class="mt-sm">
+            <input type="submit" value="Add Movie" />
+          </div>
+        </form>
+      </div>
+      <div id="movie-list" class="movieList"></div>
+    </div>
     <script src="/script.js"></script>
   </body>
 </html>
