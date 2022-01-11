@@ -50,8 +50,9 @@ p {
 }
 
 button {
-  text-align: center;
-  width: 100%;
+  display: flex;
+  margin: 8px auto;
+  align-items: center;
   height: 30px;
   font-size: 15px;
   background: seagreen;
